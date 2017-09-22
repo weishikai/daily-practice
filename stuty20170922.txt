@@ -59,7 +59,21 @@ default constructor
 this关键字对于将当前对象传递给其他方法也很有用
   5.4.1 在构造器中调用构造器
   5.4.2 static的含义
+JVM
+5.6成员初始化
+  void f() {
+    int i;
+    i++//Error
+  }
+  5.6.1 null 空白 指定初始化
+5.7构造器初始化
+  5.7.1初始化顺序
+  5.7.2静态数据的初始化
+5.9 枚举类型enum
+public enum Spiciness {
+  NOT,MILD,MEDIUM,HOT,FLAMING
+ }
+ 创建toString()方法
+ static values()
+ ordinal()
  
-
-
-
