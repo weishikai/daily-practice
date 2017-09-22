@@ -41,3 +41,25 @@ switch(integral-selector) {
   default statement
 }
 
+5.1用构造器确保初始化
+default constructor
+构造器
+1)和类名相同
+2)没有返回值
+5.2 方法重载  method overlaoding
+  5.2.1区分重载方法
+  1)参数类型不同
+  2)顺序不同
+  3)个数不同
+  5.2.2涉及基本类型的重载
+5.3默认构造器
+5.4 this关键字
+方法内部使用 
+当需要明确指出对当前对象的引用时,使用this
+this关键字对于将当前对象传递给其他方法也很有用
+  5.4.1 在构造器中调用构造器
+  5.4.2 static的含义
+ 
+
+
+
