@@ -1,0 +1,43 @@
+true false
+if(Boolean-expression)
+statement
+或
+if(Boolean-expression)
+else
+statement
+迭代
+while(Boolean-expression)
+statement
+
+do-while
+do
+  statement
+while(Boolean-expression)
+
+for
+for(initialization;Boolean-expression;step)
+  statement
+
+Foreach
+for(float x : f)
+
+重载
+return
+返回什么值(没有void返回值)
+导致当前的方法退出,并返回那个值
+break
+中断
+for(;;)  = while(true)
+continue
+1)一般的continue会退回最内层循环的开头,并继续执行
+2)带标签的continue会到达标签的位置
+3)一般的break会中断并跳出当前循环
+4)带标签的break会中断并跳出标签所指的循环
+
+switch(integral-selector) {
+  case integral-value1:statement;break;
+  ...
+  ...
+  default statement
+}
+
