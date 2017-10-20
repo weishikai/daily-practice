@@ -1,6 +1,6 @@
 ## daily practice
  
-*more look,more practise,more think,more summary [314922902@qq.com](mailto:314922902@qq.com)*
+*more look,more practise,more think,more summary [我的邮箱地址](mailto:314922902@qq.com)*
 
 As a tester,you must do the following
 
