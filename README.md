@@ -1,7 +1,6 @@
-## daily practice 
+## daily practice
  
-**日常学习记录,日积月累**
-(mailto:shikai.wei@e-dewin.com)
+*more look,more practise,more think,more summary [314922902@qq.com](mailto:shikai.wei@e-dewin.com)*
 
 
 
