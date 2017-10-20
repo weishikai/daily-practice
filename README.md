@@ -8,6 +8,6 @@ As a tester,you must do the following
 2. 编写测试用例,自动化测试用例脚本
 3. 编写脚本,进行性能测试(监控各种性能,找到性能瓶颈)
 4. 总结,测试报告
-```java
-static Logger logger = Logger.getLogger(simple.class);
+
+
 
