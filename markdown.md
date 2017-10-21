@@ -21,3 +21,6 @@ date 2017/10/21
 一 将数据存储到文件中
 1. MODE_PRIVATE 同样文件名覆盖
 2. MODE_APPEND 文件存在追加
+``` java
+    out = openFileOutput("data",Context.MODE_PRIVATE);
+    writer = new BufferedWriter(new OutputStreamWriter(out));
