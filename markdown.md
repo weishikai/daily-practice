@@ -24,3 +24,4 @@ date 2017/10/21
 ``` java
     out = openFileOutput("data",Context.MODE_PRIVATE);
     writer = new BufferedWriter(new OutputStreamWriter(out));
+    writer.write(data);
