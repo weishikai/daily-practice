@@ -13,3 +13,12 @@ As a tester,you must do the following
 
 ###### 引用
 > 记录,成为更好的自己.
+
+linux端口是否占用(https://www.cnblogs.com/hindy/p/7249234.html)
+在linux下如何查看80端口是否被占用
+```sh
+$netstat -anp | grep 80
+$netstat -nultp
+
+
+```
