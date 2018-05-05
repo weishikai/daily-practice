@@ -2,7 +2,7 @@
  * 整型的缓存机制 整型对象使用相同的对象引用实现了缓存和重用(适用于-128--+127)
  * 只适用于自动装箱,使用构造函数创建对象不适用
  * 
- *
+ * equals比较的是值 == 比较的是对象引用
  */
 public class JavaIntegerCache {
 	public static void main(String... args) {
