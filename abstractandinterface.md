@@ -17,5 +17,20 @@ abastract class Instrument {
 
 - 接口
 ```java
-// interface这个关键字产生一个完全抽象的类,它根本就没有提供任何具体实现
+// interface这个关键字产生一个完全抽象的类,它根本就没有提供任何具体实现.它允许创建者确定方法名,参数列表和返回类型,但是没有任何方法体
+// 接口只提供了形式,而未提供任何具体实现
+public interface Instrument {
+  int VALUE = 5;// static&final
+  void play(Note n);// Automatically public
+  void adjust();
+}
+class Wind implements Instrument {
+  public void play(Note n) {
+    System.out.println(this + ".play()"+n);
+  }
+  public String toString() { return "Wind"; }
+  public void adjust() {
+    System.out.println(this + ".adjust()");
+  }
+}
 ```
